@@ -51,7 +51,6 @@ MovieZone/
 └── pom.xml / .classpath # Project dependencies (if using Maven)
 
 
----
 
 ## ⚙️ Installation & Setup
 
@@ -78,7 +77,7 @@ Add the project to the Tomcat server.
 
 Start the server.
 
-📌 Future Enhancements
+## 📌 Future Enhancements
 
  +🎯 Search and filter movies by genre, rating, and language
 
@@ -92,5 +91,7 @@ Start the server.
 
 Shreeharsh Shinde
 📧 Email: shreeharshts@gmail.com
+
 🔗 GitHub: shreeharsh05
-💼 LinkedIn: Shreeharsh Shinde
+
+💼 LinkedIn: www.linkedin.com/in/shreeharsh-shinde-811604370
