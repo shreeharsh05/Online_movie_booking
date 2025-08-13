@@ -23,7 +23,7 @@ Built as part of my **full-stack learning journey**. 🚀
 - **Backend:** JSP, Servlets (Java EE)
 - **Database:** MySQL
 - **Server:** Apache Tomcat
-- **Tools:** Eclipse/IntelliJ IDEA, MySQL Workbench
+- **Tools:** Eclipse / IntelliJ IDEA, MySQL Workbench
 
 ---
 
@@ -32,6 +32,7 @@ Built as part of my **full-stack learning journey**. 🚀
 MovieZone/
 │
 ├── src/ # Java source files (Servlets, backend logic)
+│
 ├── WebContent/ # JSP pages, HTML, CSS, JS, Images
 │ ├── css/ # Stylesheets
 │ ├── js/ # JavaScript files
@@ -54,32 +55,42 @@ MovieZone/
 
 ## ⚙️ Installation & Setup
 
-1. **Clone the repository**  
+1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/MovieZone.git
    cd MovieZone
 
+## Create MySQL Database
 
-## Create a MySQL database:
 CREATE DATABASE moviezone;
 
-## Configure Database Connection 
+## Configure Database Connection
 
 String url = "jdbc:mysql://localhost:3306/moviezone";
 String username = "root";
 String password = "yourpassword";
 
+## Deploy on Apache Tomcat
+
+Import the project into Eclipse / IntelliJ IDEA as a Dynamic Web Project (or Maven project if applicable).
+
+Add the project to the Tomcat server.
+
+Start the server.
 
 📌 Future Enhancements
 
--🎯 Search and filter movies by genre, rating, and language
--📍 Location-based theater listings
--🛒 Cart and multiple booking support
--💳 Payment gateway integration
+ +🎯 Search and filter movies by genre, rating, and language
 
-👨‍💻 Author
+ +📍 Location-based theater listings
+
+ +🛒 Cart and multiple booking support
+
+ +💳 Payment gateway integration
+
+## 👨‍💻 Author
 
 Shreeharsh Shinde
 📧 Email: shreeharshts@gmail.com
 🔗 GitHub: shreeharsh05
-💼 LinkedIn: www.linkedin.com/in/shreeharsh-shinde-811604370~
+💼 LinkedIn: Shreeharsh Shinde
